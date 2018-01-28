@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Canvas Animation</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <style>
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+      overflow-y: hidden;
+    }
+
+    nav {
+      padding: 1.5rem;
+      border-bottom: 1px solid rgba(255, 0, 0, 0.15);
+    }
+
+    h1 {
+      color: rgba(255, 0, 0, 0.75);
+      margin: 0;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 2px;
+      display: inline-block;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+    }
+
+    li {
+      margin: 0;
+      padding: 0 1.5rem;
+      display: inline-block;
+    }
+
+    canvas {
+      background-color: #e6f7f3;
+    }
+  </style>
+</head>
+
+<body>
+  <nav id="navigation">
+    <h1>Canvas Animation</h1>
+    <ul>
+      <li>
+        <a href="index.html">Orbital Circles</a>
+      </li>
+      <li>
+        <a href="interactive.html">Interactive Triangles</a>
+      </li>
+    </ul>
+  </nav>
+  <main id="main">
+    <canvas id="canvas"></canvas>
+  </main>
+</body>
+<script src="scripts/interactive-triangles.js"></script>
+
+</html>
